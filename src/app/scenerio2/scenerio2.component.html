@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+    <h1>{{title}}</h1>
+    <div class='submit-name'>
+      <form #myform="ngForm" (ngSubmit)="submit(myform)">
+        <div class="form-field">
+          <label class="user" ><span class="hidden">Name</span></label>
+          <input name="username" [(ngModel)]="username" placeholder="Name" ngModel required >
+        </div>
+      </form>
+    </div>
+    <h2>{{username}}</h2>
+  </body>
+</html>

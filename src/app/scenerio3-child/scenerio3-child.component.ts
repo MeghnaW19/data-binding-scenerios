@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-scenerio3-child',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./scenerio3-child.component.css']
 })
 export class Scenerio3ChildComponent implements OnInit {
+  @Input('parentMessage') childMessage: string;
 
   constructor() { }
 

@@ -6,9 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./scenerio3-parent.component.css']
 })
 export class Scenerio3ParentComponent implements OnInit {
-
+  parentMessage = "message from parent";
   constructor() { }
-
   ngOnInit() {
   }
 

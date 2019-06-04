@@ -10,6 +10,9 @@ import { Scenerio3ParentComponent } from './scenerio3-parent/scenerio3-parent.co
 import { Scenerio3ChildComponent } from './scenerio3-child/scenerio3-child.component';
 import { Scenerio4ChildComponent } from './scenerio4-child/scenerio4-child.component';
 import { Scenerio4ParentComponent } from './scenerio4-parent/scenerio4-parent.component';
+import { Scenerio5ParentComponent } from './scenerio5-parent/scenerio5-parent.component';
+import { Scenerio5ChildComponent } from './scenerio5-child/scenerio5-child.component';
+import { Scenerio5GrandparentComponent } from './scenerio5-grandparent/scenerio5-grandparent.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +23,9 @@ import { Scenerio4ParentComponent } from './scenerio4-parent/scenerio4-parent.co
     Scenerio3ChildComponent,
     Scenerio4ChildComponent,
     Scenerio4ParentComponent,
+    Scenerio5ParentComponent,
+    Scenerio5ChildComponent,
+    Scenerio5GrandparentComponent,
   ],
   imports: [
     BrowserModule,

@@ -16,7 +16,7 @@ export class Scenerio4ChildComponent implements OnInit {
   @Output() messageEvent = new EventEmitter<any>();
 
   sendMessage() {
-    // console.log("**", this.message);
+    // console.log("**", this.messageEvent.emit(this.message));
     this.messageEvent.emit(this.message);
   }
 }

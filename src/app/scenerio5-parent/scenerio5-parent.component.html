@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>parent message: {{ parentMessage }}</p>
+    <app-scenerio5-child
+      (messageEvent)="receiveMessage($event)"
+    ></app-scenerio5-child>
+    <!-- <div>
+      <button (click)="sendMessage()">
+        Send Message from parent to grand parent
+      </button>
+    </div> -->
+  </body>
+</html>
